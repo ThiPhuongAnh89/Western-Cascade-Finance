@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        
+        <link rel="stylesheet" type="text/css" href="css/style_A1.css"/>
+     <title>PartB</title>
+    
+    
+    </head>
+
+    <body class="background">
+        <div class="row header">
+<img class="logo_image " src="Image/logo.jpg" /><br>  
+<!---source: https://www.westerncascade.com/ --->
+<h1 class ="center">  WESTERN CASCADE FINANCE  </h1>
+        </div>
+
+
+
+<div class="center">
+    <form action="mailto: applications@wcf.ab.ca" method = "post">
+        
+        <table class="form1" >
+        
+            <tr>
+                <td>
+                    <table  class="form4">
+        
+            <tr>
+                <td  > <h2 class ="center"> Personal Application Form</h2> 
+                <hr>
+                <hr></td>
+                
+            </tr>
+        
+            
+        </table>
+        <table  class="form3">
+        
+            <tr>
+                <td class ="width100"> <h3 class ="center"> Contact Information</h3>  </td>
+                
+            </tr>
+            
+        </table>
+        
+    <table class = "form2">
+            
+            
+            
+            <tr>
+                <td class = "link">Current date  </td>
+                <td class = "link"><input type="datetime-local" name ="Today’s_Date" value="2019-06-14T10:37" required/></td>
+            </tr>
+            
+            <tr>
+                <td class = "link">First name </td>
+                <td class = "link"><input type="text"  name ="Fname" required placeholder = "Enter your first name" pattern="[A-Za-z]{1,25}" maxlength = "25" title="Please enter only A-Z or a-z (maximum 25 letters) "required> </td>
+                
+            </tr>
+            
+            
+            <tr>
+                <td class = "link">Last name </td>
+                <td class = "link"><input type="text"  name ="Lname" required placeholder = "Enter your last name" pattern="[A-Za-z]{1,25}" maxlength = "25" title="Please enter only A-Z or a-z (maximum 25 letters) "required> </td>
+            </tr>
+
+            <tr>
+                <td class = "link">Street Address </td>
+                <td class = "link"><input type="text"  name ="address" required placeholder = "ex: 1234 Main Street" title="ex: 1234 Main Street" required/></td>
+            </tr>
+            
+            <tr>
+                <td class = "link">Postal Code </td>
+                <td class = "link"><input type="text"  name ="Postcode" required placeholder = "ex: A0A 0A0" pattern= "[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" maxlength = "7" title="Please enter only A-Z,a-z and 0-9 following format: A0A 0A0 (3 digits space 3 digits) "required> </td>
+                <!--- source: http://html5pattern.com/Postal_Codes --->
+            </tr>
+            
+            <tr>
+                <td class = "link">Phone Number 
+                </td>
+                <td>
+                <table>
+                    <tr> 
+            <td> 
+                <input type="radio" checked name="phone_type" value="Pesonal" title="Please choose if it is your personal number">Pesonal</td>
+                       <td> <input type="radio" name="phone_type" value="Work" title="Please choose if it is your  business number" > business </td>
+                <td ><input class = "input1" type="tel"  name ="Telephone_number" pattern= "[0-9]+" required placeholder ="xxx-xxx-xxxx" title="Please enter 10 numbers without dashes" minlength = "10" maxlength = "10" required/></td> 
+            </tr>
+                </table>
+                </td>
+            </tr>
+            
+           
+            
+            <tr>
+                <td class = "link">Email </td>
+                <td class = "link"><input type="email"  name ="The_email_address" required placeholder="you@example.com" title="Please enter email ex: you@example.com"  required/></td>
+            </tr>
+        
+        <tr>
+                <td class = "link">Age  </td>
+                <td class = "link"> <input type="number" name =" Your_Age" required placeholder = "Minimum is 18" pattern= "[0-9]+" min ="18" title="Please enter your age((Minimum is 18)"required/></td> 
+            </tr>
+        
+          <tr> 
+                 <td class = "link">Gender </td>
+                <td >
+                    <table class="form"> 
+                        <tr>
+                            <td><input type="radio" checked name="Gender" value="Male" >Male &nbsp;  </td>
+                            <td><input type="radio" name="Gender" value="Female" >Female  </td>
+                            <td><input type="radio" name="Gender" value="Undeclared" >Undeclared</td>
+                       </tr>    
+                    </table> 
+               
+                </td>
+            </tr>
+            
+ </table>
+            <table  class="form3">
+        
+            <tr>
+                <td class ="width100"> <h3 class ="center"> PROFILE</h3>  </td>
+                
+            </tr>
+            
+        </table>
+                    <table class="form2">
+            
+             <tr>
+                 <td class = "link">Are you a current client? </td>
+                <td> 
+                   <table class="form"> 
+                    <tr>
+                       <td class="buttom"> <input type="radio" checked name="type" value="Yes" >Yes</td>
+                       <td class="buttom"><input type="radio" name="type" value="No" >No</td>
+                    </tr>    
+                    </table> 
+                </td>      
+            </tr>
+            
+             <tr>
+                 <td class = "link">Home Status </td>
+                <td> 
+                   <table class="form"> 
+                    <tr>
+                       <td class="buttom"> <input type="radio" checked name="status" value="Own" title="checked if you own any houses" >Own</td>
+                       <td class="buttom"><input type="radio" name="status" value="Rent" title="checked if you rent a houses" >Rent</td>
+                    </tr>    
+                    </table> 
+                </td>      
+            </tr>
+            
+            <tr>
+                <td class = "link">Annual Gross Income </td>
+                <td class = "link"><input class = "input1" type="number" name =" Your_Income" required placeholder = "Minimum is 0" pattern= "[0-9]+" min ="0" title="Please enter your income(Minimum is 0)"required/></td>  
+            </tr>
+            
+          
+           
+            
+            <tr>
+                <td class = "link">Owner Ship</td>
+                <td             >
+                    <table class="form"> 
+                        <tr>
+                            <td><input type="checkbox" checked name="owner" value="Vehicle" title="choose all that apply" >Vehicle</td>
+                            <td><input type="checkbox" name="owner" value="RRSP" title="choose all that apply, Registered Retirement Savings Plan (RRSP)">RRSP</td>
+                            <td><input type="checkbox" name="owner" value="TFSA" title="choose all that apply, The Tax-Free Savings Account(TFSA)">TFSA</td>
+                            <td><input type="checkbox" name="owner" value="RRIF" title="choose all that apply, Registered Retirement Income Fund (RRIF)  ">RRIF</td>
+                       </tr>    
+                    </table> 
+                </td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" class="center">
+                    <input class="submit" type="submit" value="SUBMIT">
+                <input class="submit" type="reset" value="RESET">
+                </td>
+
+            </tr>
+        </table>
+                    
+                </td>
+            </tr>
+        </table>
+       
+    </form>
+
+</div>
+
+</body>
+</html>
